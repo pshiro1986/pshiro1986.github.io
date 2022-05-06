@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    background-image: linear-gradient(to right,rgba(255,255,255,1),rgba(255,255,255,0.7)),
+     url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 128px;
+}
+@media screen and (max-width:768px) {
+    .container{
+        padding: 48px;     
+    }
+    
+}
+.about{
+
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 24px;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    box-shadow: 10px 10px 0px 0px;
+    text-decoration: none;
+}
+.contact{
+    margin-bottom: 48px;
+}
+.contact-item{
+    margin-bottom: 10px;
+}
+.contact-icon{
+    margin-right: 10px;
+    width: 16px;
+}
+.content
+{
+    max-width: 500px;
+}
+.job{
+
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.name{
+
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.avatar{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 5px 2px;
+}
+
